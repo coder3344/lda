@@ -17,11 +17,11 @@ public class TopicWordSort implements Comparable<TopicWordSort> {
 	public int compareTo(TopicWordSort arg0) {
 		// TODO Auto-generated method stub
 		if(this.probability>arg0.getProbability()){
-			return 1;
+			return -1;
 		}else if(this.probability==arg0.getProbability()){
 			return 0;
 		}else{
-			return -1;
+			return 1;
 		}
 	}
 
