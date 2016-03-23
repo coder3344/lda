@@ -13,8 +13,8 @@ public class StandardLDA {
 		
 		String confPath=args[0];
 		Params option=ConfigParser.parseConfig(confPath);
-		GibbsSampling gibbsSampling=new GibbsSampling(option);
-		gibbsSampling.init();
-		gibbsSampling.estimate();
+		//GibbsSampling gibbsSampling=new GibbsSampling(option);
+		//gibbsSampling.init();
+		//gibbsSampling.estimate();
 	}
 }
